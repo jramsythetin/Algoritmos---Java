@@ -4,4 +4,4 @@
 Feito na JDK 22.0 e IDEA IntelliJ
 
 1. **Algoritmo Temperatura**  
-   (Descrição do algoritmo ou outros detalhes)
+   (Algoritimo eu tirei da minha mente, peguei os números das temperaturas do Brasil  )
