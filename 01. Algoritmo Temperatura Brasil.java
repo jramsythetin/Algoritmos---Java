@@ -7,10 +7,10 @@ public class Main {
         double temperatura;
         System.out.println("Digite a temperatura atual");
         temperatura = scan.nextDouble(); // input de dados
-            if (temperatura < 0 ){
-                System.out.println(temperatura +" = Temperatura negativa");
+            if (temperatura <= 15 ){
+                System.out.println(temperatura +" = Temperatura abaixo do normal");
             }
-            else if (temperatura > 0 && temperatura < 39){
+            else if (temperatura > 15 && temperatura < 30){
                 System.out.println(temperatura + " = Temperatura na média");
             }
             else {
@@ -19,4 +19,3 @@ public class Main {
             scan.close();
     }
 }
-
